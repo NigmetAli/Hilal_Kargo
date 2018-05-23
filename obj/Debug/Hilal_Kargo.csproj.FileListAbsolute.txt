@@ -1,0 +1,6 @@
+C:\Users\NigmetAli.DESKTOP-7F1NRB7\Desktop\Hilal_Kargo\Hilal_Kargo\Hilal_Kargo\obj\Debug\Hilal_Kargo.csprojResolveAssemblyReference.cache
+C:\Users\NigmetAli.DESKTOP-7F1NRB7\Desktop\Hilal_Kargo\Hilal_Kargo\Hilal_Kargo\bin\Hilal_Kargo.dll.config
+C:\Users\NigmetAli.DESKTOP-7F1NRB7\Desktop\Hilal_Kargo\Hilal_Kargo\Hilal_Kargo\bin\Hilal_Kargo.dll
+C:\Users\NigmetAli.DESKTOP-7F1NRB7\Desktop\Hilal_Kargo\Hilal_Kargo\Hilal_Kargo\bin\Hilal_Kargo.pdb
+C:\Users\NigmetAli.DESKTOP-7F1NRB7\Desktop\Hilal_Kargo\Hilal_Kargo\Hilal_Kargo\obj\Debug\Hilal_Kargo.dll
+C:\Users\NigmetAli.DESKTOP-7F1NRB7\Desktop\Hilal_Kargo\Hilal_Kargo\Hilal_Kargo\obj\Debug\Hilal_Kargo.pdb

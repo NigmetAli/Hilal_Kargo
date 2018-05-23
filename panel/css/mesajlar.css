@@ -1,0 +1,43 @@
+﻿#content table {border:2px solid #cfcfcf;}
+#content table th {border-right:1px solid #0074B3; background-color:#0085cc; color:#fff;}
+#content table td {border:1px solid #cfcfcf;}
+#content table tr.bg td, #content table tr.odd td {background-color:#e8f6ff;}
+#content table.tablesorter th.headerSortUp, #content table.tablesorter th.headerSortDown {background-color:#0074B3;}
+#content dl dt {color:#df0000;}
+#content fieldset {border:1px solid #ccc;}
+#content legend {background:#FFF; color:#0085cc;}
+
+.ico-user-03 {padding-left:20px; background:url("../images/ico-user-03.gif") 0 0 no-repeat;}
+
+
+
+.msg {padding:10px; padding-left:35px;}
+.msg.warning {background:url("../images/ico-warning.gif") 10px 50% no-repeat;}
+.msg.info {background:url("../images/ico-info.gif") 10px 50% no-repeat;}
+.msg.done {background:url("../images/ico-done.gif") 10px 50% no-repeat;}
+.msg.error {background:url("../images/ico-delete.gif") 10px 50% no-repeat;}
+
+.msg.warning {border:2px solid #F2DD8C; background-color:#FFF5CC;}
+.msg.warning a {color:#df0000;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#303030;}
+.msg.info {border:2px solid #B8E2FB; background-color:#E8F6FF;}
+.msg.done {border:2px solid #BBDF8D; background-color:#EAF7D9;}
+.msg.error {border:2px solid #FFAEAE; background-color:#FEEBEB;}
+
+.nom {margin:0 !important;}
+.nomt {margin-top:0 !important;}
+.nomb {margin-bottom:0 !important;}
+
+
+.input-text {padding:3px; font:100%/1.5 "arial", sans-serif;}
+.input-text-02 {padding:5px; font:140%/1.5 "arial", sans-serif;}
+.input-submit {padding:5px; font-size:120%;}
+.input-submit-02 {padding:1px; font-size:100%;}
+
+.lblgiris{ font-size:medium; color:Black;}
+
+.RequiredFV{ color:Red;}
+
+#tray #logout {padding-left:18px; background:url("../images/tray-logout.gif") 0 50% no-repeat; text-transform:uppercase;}
+
+a img {  border: none; } 
+

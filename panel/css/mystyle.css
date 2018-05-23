@@ -1,0 +1,51 @@
+/* Data Pager Styles */
+
+.pager
+{
+    font-family:Tahoma;
+    text-align:center;
+    padding:10px;	
+    font-size:15px;
+} 
+.pager SPAN.command,
+.pager SPAN.current,
+.pager A.command
+{
+    color:#5a90ce;
+    padding:0px 5px;
+    text-decoration:none;
+    border:none;
+}
+.pager A.command:hover
+{
+    border:solid 2px red;
+    background-color:Black;
+    color:#fff;
+    padding:0px 3px;
+    text-decoration:none;
+}    
+.pager SPAN.current
+{
+	border:none;
+    font-weight:bold;
+    color:White;
+    padding:0px 6px;
+    /**/
+    border:solid 2px red;
+    background-color:Black;
+}
+/* */
+.pager A.command
+{
+    border:solid 2px black;
+    background-color:Black;
+    color:White;
+    padding:0px 3px;
+    text-decoration:none;
+}
+#ctl00_logout 
+{
+    padding-left:18px; 
+    background:url("../design/tray-logout.gif") 0 50% no-repeat; 
+    text-transform:uppercase;
+}

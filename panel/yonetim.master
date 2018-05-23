@@ -1,0 +1,92 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="yonetim.master.cs" Inherits="panel_yonetim" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Yönetim Paneli » </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1254" />
+    <meta http-equiv="Content-Language" content="tr" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="all" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link href="css/yonetim-style.css" type="text/css" rel="stylesheet" />
+    <link href="css/mesajlar.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+        function JSUyari(strUyari) {
+            if (confirm('' + strUyari + '')) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div id="main">
+        <div id="header">
+       <h1 style="float: right;">
+                <a href="default.aspx" class="logo">
+                    <img src="images/logo.png" width="300" height="55"alt="logo" title="Siteye Git" /></a>
+            </h1>
+            <ul id="top-navigation">
+                <li runat="server" id="li_giris" class=""><span><span><a href="Default.aspx">Giriş</a></span></span></li>
+                <li runat="server" id="li_profil" class=""><span><span><a href="profilim.aspx">Profilim</a></span></span></li>
+                <li runat="server" id="li_baner" class=""><span><span><a href="baner.aspx">Slider</a></span></span></li>
+                <li runat="server" id="li_kurum" class=""><span><span><a href="kurumsal.aspx">Kurumsal</a></span></span></li>
+                <%--<li runat="server" id="li_insankaynaklari" class=""><span><span><a href="insankaynaklari.aspx">I.K</a></span></span></li>--%>
+                <%--<li runat="server" id="li_kategori" class=""><span><span><a href="kategoriler.aspx">Kategoriler</a></span></span></li>--%>
+              <li runat="server" id="li_urun" class=""><span><span><a href="urunler.aspx">Sertifikalar</a></span></span></li>
+            <%--    <li runat="server" id="li_bayi" class=""><span><span><a href="bayiler.aspx">Hasere</a></span></span></li>--%>
+                <li runat="server" id="li_referans" class=""><span><span><a href="referanslarr.aspx">Galeri</a></span></span></li>
+                <li runat="server" id="li_hizmet" class=""><span><span><a href="hizmetler.aspx">Hizmetler</a></span></span></li>
+                <%--<li runat="server" id="li_lazeruygulama" class=""><span><span><a href="lazerepilasyon.aspx">Lazer Uygulama</a></span></span></li>--%>
+            <%--     <li runat="server" id="li_katalog" class=""><span><span><a href="katalogg.aspx">Kataloglar</a></span></span></li>--%>
+                <%--<li runat="server" id="li_mail" class=""><span><span><a href="maillist.aspx">Eposta List.</a></span></span></li>--%>
+                <li runat="server" id="li_haber" class=""><span><span><a href="haberler.aspx">Haberler</a></span></span></li>
+                <li runat="server" id="li_mesaj" class=""><span><span><a href="mesajlar.aspx">İletişim Mesaj.</a></span></span></li>
+                    <li runat="server" id="li_tag" class=""><span><span><a href="tagbulutu.aspx">Tag Bulutu</a></span></span></li>
+                 <li runat="server" id="li_istatistik" class=""><span><span><a href="istatistik.aspx">İstatistik</a></span></span></li>
+            </ul>
+        </div>
+        <div id="middle">
+            <div id="left-column">
+                <h3>
+                    Alt Menü</h3>
+                <ul runat="server" id="altmenu" class="nav">
+                </ul>
+                <h3>
+                    Çıkış</h3>
+                <ul class="nav">
+                    <li>
+                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click" OnClientClick="return JSUyari('Çıkış yapmak istediğinize emin misiniz?')">Çıkış</asp:LinkButton>
+                    </li>
+                </ul>
+            </div>
+            <div id="center-column">
+                <asp:ToolkitScriptManager EnableScriptGlobalization="true" EnableScriptLocalization="true"
+                    ID="ToolkitScriptManager1" runat="server">
+                </asp:ToolkitScriptManager>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="right-column">
+                <strong class="h">Bilgi</strong>
+                <div class="box">
+                    <p runat="server" id="bilgi">
+                        ...
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

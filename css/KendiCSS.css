@@ -1,0 +1,29 @@
+.kurumsalBaslik h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.padding-yukari{
+    padding-top: 30px;
+}
+.padding-yukari-30{
+    padding: 30px;
+}
+
+.tamYukseklik{
+    height:300px;
+}
+.tamYukseklik360{
+    height:360px;
+}
+.tamYukseklik330{
+    height:330px;
+}
+
+.satirArasi{
+    line-height:0.9 !important;
+}
